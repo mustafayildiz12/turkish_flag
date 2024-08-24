@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 
-class TurkishFlag extends StatefulWidget {
+class TurkishFlag extends StatelessWidget {
   const TurkishFlag({super.key});
 
-  @override
-  State<TurkishFlag> createState() => _TurkishFlagState();
-}
-
-class _TurkishFlagState extends State<TurkishFlag> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.sizeOf(context).width;
